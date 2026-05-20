@@ -1,0 +1,25 @@
+my-data-pipeline/
+├── dbt_project/
+│   ├── models/
+│   │   ├── staging/
+│   │   ├── marts/
+│   │   └── intermediate/
+│   ├── macros/
+│   ├── tests/
+│   └── dbt_project.yml
+│
+├── airflow/
+│   ├── dags/
+│   │   ├── dbt_dags/
+│   │   └── other_dags/
+│   └── plugins/
+│
+├── scripts/
+│
+├── docker/
+│   ├── docker-compose.yml
+│   └── Dockerfile
+│
+├── .gitignore
+├── requirements.txt
+└── README.md
